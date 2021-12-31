@@ -11,14 +11,14 @@
 </head>
 <body class="container-fluid">
     <header id="header" class="site-header">
-        <section id="mini-tools">
-                <div id="tools">
+        <section class="d-flex justify-content-around" id="mini-tools">
+                <div class="col-5 float-left" id="tools">
                     <button>burguer</button>
                     <button>search</button>
                     <button>weather</button>
-                    <p>Managua, <datagrid>15 de junio, 2021</datagrid></p>
+                    <p class="d-inline" >Managua, <datagrid>15 de junio, 2021</datagrid></p>
                 </div>
-                <div id="join-us" class="list-inline">
+                <div id="join-us" class="col-4 float-right list-inline">
                         <p class="text-decoration-none list-inline-item" href="#">Únete a La Membresia</a>
                     <li id="li-point" class="list-inline-item">
                         <a class="text-decoration-none text-dark" href="#">Suscríbite al boletín</a>
@@ -60,8 +60,8 @@
     <main id="main">
         <section id="featured">
             <span class="bg-danger p-1 m-5 rounded-circle"></span>
-            <h3 class="d  text-primary text-uppercase">Destacados:</h3>
-            <ul class="list-unstyled">
+            <h3 class="d-inline text-primary text-uppercase">Destacados:</h3>
+            <ul class="d-inline list-unstyled">
                 <li class="li-clean list-inline-item"><a class="text-dark text-decoration-none" href="">OEA</a></li>
                 <li class="li-point list-inline-item"><a class="text-dark text-decoration-none" href="">Enrique Bolaños Geyer</a></li>
                 <li class="li-point list-inline-item"><a class="text-dark text-decoration-none" href="">represión</a></li>
@@ -71,7 +71,7 @@
                 <li class="li-point list-inline-item"><a class="text-dark text-decoration-none" href="">Ley Renacer</a></li>
             </ul>
         </section>
-        <section id="all-articles">
+        <section class="d-flex justify-content-center" id="all-articles">
 
             <div id="first-section">
                 <article id="article-one">
@@ -118,10 +118,10 @@
                     </p>
                 </article>
                 <article >
-                    <div class="media">
-                        <img class="rounded align-self-center mr-3" src="assets/images/img3.png" alt="PolicÍa secuestra a opositores" width="64px" height="64px">
-                        <div class="media-body">
-                            <h3 class="text-primary text-uppercase mt-0">Nación</h3>
+                    <h3 class="text-primary text-uppercase mt-0">Nación</h3>
+                    <div class="d-flex">
+                        <img class="d-inline rounded align-self-center mr-3" src="assets/images/img3.png" alt="PolicÍa secuestra a opositores" width="64px" height="64px">
+                        <div class="d-inline">
                             <p class="fw-bolder mb-0">Policía secuestra a opositores Dora M. Téllez, Ana M. Vijil, Suyan Barahona y Hugo Torres</p>
                         </div>
                     </div>
@@ -154,7 +154,7 @@
         </section>
     </main>
     <footer>
-        <div class="col-12 col-md-3 p-3">
+        <div class="container-fluid text-center p-3">
             <h3 class="mb-4">Contactar</h3>
             <div class="row my-3">
                 <div class="col">
