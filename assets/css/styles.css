@@ -1,17 +1,73 @@
-@import url('../../Fonts/MyFonts\ Order\ M12764355/');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
 *{
     margin: 0%;
     padding: 0%;
-    box-sizing: border-box;
+    opacity: 1;
 }
 
-body, button {
-    color: #404040;
-    font-family: serif; 
-    font-size: 16px;
-    font-size: 1rem;
-    line-height: 1.35;
+.border-bottom{
+    border-bottom: 1px solid #DDE5ED;
+}
+body{
+    background-color: #71717147;
+}
+.container{
+    max-width: 1280px;
+    max-height: 1148px;
+    background-color: #FFF;
 }
 footer{
     background-color: #ccc;
+}
+.sticky-top{
+    max-height: 42px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: -0.35px;
+    color: #717171;
+    background-color: #FFF;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+#mini-tool{
+    margin-left: 85px;
+}
+
+#join-us{
+    font-weight: bold;
+    margin-right: 85px;
+}
+#search{
+    margin-left: 9px;
+    margin-right: 9px;
+}
+#weather{
+    margin-left: 9px;
+}
+.suscribite{
+    color: #717171;
+    margin: 0px;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.text-danger {
+    color: #C60C30 !important;
+}
+.list-inline-item a {
+    text-align: left;
+    font: normal normal medium 16px/19px Work Sans;
+    letter-spacing: -0.4px;
+    color: #000000;
+}
+.list-inline-item a:hover{
+    color: #005077;
+}
+h1{
+    font-family: 'Roboto Slab', serif; /*similar "Open Sans" */
+    font-weight: 400;
+    color: #404040;
+}
+h3{
+    color: #005077;
 }
