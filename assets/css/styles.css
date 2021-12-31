@@ -4,13 +4,14 @@
     padding: 0%;
     box-sizing: border-box;
 }
-.principal-header{
-    background: #ccc !important;
-}
+
 body, button {
     color: #404040;
     font-family: serif; 
     font-size: 16px;
     font-size: 1rem;
     line-height: 1.35;
+}
+footer{
+    background-color: #ccc;
 }
