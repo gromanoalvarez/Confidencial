@@ -13,12 +13,14 @@ body{
     background-color: #71717147;
 }
 .container{
-    max-width: 1280px;
+    width: 1280px;
     max-height: 1148px;
     background-color: #FFF;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
-footer{
-    background-color: #ccc;
+.row {
+         --bs-gutter-x: 0px;
 }
 .sticky-top{
     max-height: 42px;
@@ -29,14 +31,11 @@ footer{
     background-color: #FFF;
     padding-top: 12px;
     padding-bottom: 12px;
+    padding-left: 85px !important;
+    padding-right: 85px !important;
 }
-#mini-tool{
-    margin-left: 85px;
-}
-
 #join-us{
     font-weight: bold;
-    margin-right: 85px;
 }
 #search{
     margin-left: 9px;
@@ -51,9 +50,11 @@ footer{
     padding-right: 0px !important;
     padding-left: 0px !important;
 }
-.text-danger {
-    color: #C60C30 !important;
+#header{
+    padding-left: 85px !important;
+    padding-right: 85px !important;
 }
+
 .list-inline-item a {
     text-align: left;
     font: normal normal medium 16px/19px Work Sans;
@@ -63,11 +64,13 @@ footer{
 .list-inline-item a:hover{
     color: #005077;
 }
-h1{
-    font-family: 'Roboto Slab', serif; /*similar "Open Sans" */
-    font-weight: 400;
-    color: #404040;
-}
 h3{
     color: #005077;
+}
+
+.text-danger {
+    color: #C60C30 !important;
+}
+footer{
+    background-color: #ccc;
 }
