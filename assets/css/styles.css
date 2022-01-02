@@ -24,7 +24,7 @@ body{
     --bs-gutter-x: 0px;
 }
 .sticky-top{
-    max-height: 42px;
+    height: 42px;
     font-family: 'Work Sans', sans-serif;
     font-size: 14px;
     letter-spacing: -0.35px;
@@ -35,43 +35,72 @@ body{
     padding-left: 85px !important;
     padding-right: 85px !important;
 }
+
 #join-us{
     font-weight: bold;
+}
+#menu-burger{
+    position: absolute;
+    top: 15px;
+    left: 85px;
 }
 #menu-burger:hover{
     cursor: pointer;
 }
 #search{
-    margin-left: 9px;
-    margin-right: 9px;
+position: absolute;
+top: 13px;
+left: 121px;
 }
 #search{
     cursor: pointer;
 }
 #weather{
-    margin-left: 9px;
+position:absolute;
+top: 11px;
+left: 156px;
 }
-.suscribite{
-    color: #717171;
-    margin: 0px;
-    padding-right: 0px !important;
-    padding-left: 0px !important;
-}
-.suscribite{
-    color: #717171;
-}
+
+
 .veintiseis{
     text-align: left;
     font-size: 18px;
     font-family: 'Work Sans', sans-serif;
     letter-spacing: -0.45px;
     color: #717171;
+    position: absolute;
+    top: 10px;
+    left: 182px;
 }
 .celsius{
     text-align: left;
     font: normal normal medium 10px/11px 'Work Sans', sans-serif;
     letter-spacing: -0.25px;
     color: #717171;
+    position: absolute;
+    top: 13px;
+left: 205px;
+}
+#address-day{
+    position: absolute;
+    top: 13px;
+left: 234px;
+}
+.unite{
+    color: #717171;
+    position: absolute;
+    top: 12px;
+    left: 909px;
+}
+.suscribite{
+    position: absolute;
+    top: 12px;
+    left: 1063px;
+    color: #717171;
+}
+.suscribite:hover{
+    color: #717171;
+    cursor: pointer;
 }
 #header{
     padding-left: 85px !important;
@@ -80,7 +109,6 @@ body{
 .titular{
     padding: 30px 0px;
 }
-
 .list-nav{
     text-align: left;
     font-size: 16px;
@@ -112,6 +140,9 @@ body{
     font-weight: 500;
     letter-spacing: -0.4px;
     color: #000000;
+    list-style-type: disc;
+    list-style-position: inside;
+    
 }
 .list-inline-item a:hover{
     color: #005077;
@@ -170,5 +201,3 @@ h3{
     letter-spacing: -0.48px;
     color: #000000;
 }
-
-
