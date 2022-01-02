@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap');
 *{
     margin: 0%;
     padding: 0%;
@@ -14,13 +16,12 @@ body{
 }
 .container{
     width: 1280px;
-    max-height: 1148px;
     background-color: #FFF;
     padding-left: 0px !important;
     padding-right: 0px !important;
 }
 .row {
-         --bs-gutter-x: 0px;
+    --bs-gutter-x: 0px;
 }
 .sticky-top{
     max-height: 42px;
@@ -37,9 +38,15 @@ body{
 #join-us{
     font-weight: bold;
 }
+#menu-burger:hover{
+    cursor: pointer;
+}
 #search{
     margin-left: 9px;
     margin-right: 9px;
+}
+#search{
+    cursor: pointer;
 }
 #weather{
     margin-left: 9px;
@@ -50,27 +57,118 @@ body{
     padding-right: 0px !important;
     padding-left: 0px !important;
 }
+.suscribite{
+    color: #717171;
+}
+.veintiseis{
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: -0.45px;
+    color: #717171;
+}
+.celsius{
+    text-align: left;
+    font: normal normal medium 10px/11px 'Work Sans', sans-serif;
+    letter-spacing: -0.25px;
+    color: #717171;
+}
 #header{
     padding-left: 85px !important;
     padding-right: 85px !important;
 }
+.titular{
+    padding: 30px 0px;
+}
 
-.list-inline-item a {
+.list-nav{
     text-align: left;
-    font: normal normal medium 16px/19px Work Sans;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.4px;
+    color: #000000;
+}
+#featured{
+    margin-top: 26px !important;
+    margin-bottom: 26px !important;
+}
+.red{
+    color:#C60C30;
+    vertical-align: baseline;
+}
+.destacados{
+    text-align: left;
+    font-size: 15.5px;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 0px;
+    color: #005077;
+    text-transform: uppercase;
+}
+.list-inline-item{
+    text-align: center;
+    font-size:  16px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
     letter-spacing: -0.4px;
     color: #000000;
 }
 .list-inline-item a:hover{
     color: #005077;
 }
+.li-point{
+    list-style-type: circle !important;
+}
+#all-articles{
+    padding-right: 85px !important;
+    padding-left: 85px !important;
+    padding-bottom: 100px;
+}
+.rounded{
+    border-radius: 5px 5px 5px 5px;
+}
 h3{
+    font-family: 'Sawarabi Gothic', sans-serif;
     color: #005077;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.lead{    
+    text-align: left;
+    font: normal normal bold 36px 'Sawarabi Gothic', sans-serif;
+    letter-spacing: -0.22px;
+    color: #000000;
+    padding-right: 5px;
+    margin-bottom: 53px;
+}
+.text-2{
+    text-align: left;
+    font: normal normal normal 18px/21px 'Work Sans', sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.45px;
+    color: #000000;
+}
+.goth-t{
+    font-family: 'Sawarabi Gothic', sans-serif !important;
+    font-size: 14px;
+}
+.goth-p{
+    font-family: 'Sawarabi Gothic', sans-serif !important;
+    font-size: 18px;
+}
+.text-n{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: -0.4px;
+    color: #000000;
+}
+.goth-m{
+    text-align: left;
+    font: normal normal bold 24px/26px 'Sawarabi Gothic', sans-serif;
+    letter-spacing: -0.48px;
+    color: #000000;
 }
 
-.text-danger {
-    color: #C60C30 !important;
-}
-footer{
-    background-color: #ccc;
-}
+
